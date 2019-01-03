@@ -1,0 +1,108 @@
+﻿body {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    color: #666;
+}
+.container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.center-text {
+    text-align: center !important;
+}
+
+h2, h3 {
+    font-weight: 400;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 1.25rem;
+}
+
+h3 > ::after, h3 > ::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - (1px/2));
+    width: 2000px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+h3 > ::before {
+    right: 100%;
+    margin-right: .6em;
+}
+
+h3 > ::after {
+    left: 100%;
+    margin-left: .6em;
+}
+
+h3 > * {
+    display: inline-block;
+    position: relative;
+}
+
+h3 {
+    overflow: hidden;
+}
+
+.cv tr td:first-child {
+    width: 200px;
+    vertical-align: top;
+}
+
+.cv tr td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cv tr:first-child td {
+    padding-top: 0;
+}
+
+.projects tr td:first-child {
+    width: 103px;
+    vertical-align: middle;
+}
+
+.projects tr td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /*vertical-align: top;*/
+}
+
+.projects tr:first-child td {
+    padding-top: 0;
+}
+
+.mt {
+    margin-top: 10px;
+}
+
+.pl {
+    padding-left: 25px;
+}
+.tag-list {
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.tag-list span {
+    background-color: #e4edf4;
+    color: #3275AE;
+    padding: 4px 6px 4px 6px;
+    margin: 2px 2px 2px 0;
+    line-height: 12px;
+    vertical-align: middle;
+    border-radius: 3px;
+    font-size: 12px;
+}
